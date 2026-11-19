@@ -1,0 +1,36 @@
+# Build output
+build/
+bin/
+gen/
+out/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# Gradle
+.gradle/
+gradle-app.setting
+.gradletasknamecache
+
+# Local config
+local.properties
+key.properties
+
+# Signing (never commit)
+*.jks
+*.keystore
+*.p12
+*.pfx
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+captures/
+.externalNativeBuild/
+.cxx/
+# Logs
+*.log
